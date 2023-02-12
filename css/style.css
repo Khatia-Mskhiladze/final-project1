@@ -46,21 +46,18 @@ li {
     font-size: 1.5rem;
     font-weight: 700;
 }
-.home {
+.active {
     color: #623932;
     border-bottom: 3px solid #623932;
 }
-.artworks{
+.noactive{
     color: #E3F6F6;  
 }
-.contact{
-    color: #E3F6F6;
-}
-.artworks:hover{
+.noactive:hover{
     cursor: pointer;
     border-bottom: 3px solid #623932;
 }
-.contact:hover{
+.noactive:hover{
     cursor: pointer;
     border-bottom: 3px solid #623932;
 }
@@ -104,6 +101,8 @@ h1{
         width: 100%;
     }
 }
+
+/* footer  */
 footer{
     width: 100%;
     padding: 77px 110px 77px 100px;
@@ -139,5 +138,9 @@ footer{
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
 }
+
+/* artworks - II page  */
+
+
 
 
