@@ -104,5 +104,40 @@ h1{
         width: 100%;
     }
 }
+footer{
+    width: 100%;
+    padding: 77px 110px 77px 100px;
+    background-color: #C0BA8F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_text{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #DDDBCB;
+    align-items: center;
+}
+.footer_icons{
+    display: flex;
+    gap: 47px;
+}
+.fa-facebook-messenger, .fa-instagram, .fa-youtube{
+    color: #E3F6F6;
+}
+.fa-facebook-messenger:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px white;
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px white;
+}
+.fa-youtube:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px white;
+}
 
 
