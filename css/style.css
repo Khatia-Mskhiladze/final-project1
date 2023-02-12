@@ -84,7 +84,6 @@ li {
     background-position: center;
     position: relative;
 }
-
 h1 {
     width: 90%;
     font-family: 'Rubik';
@@ -101,7 +100,6 @@ h1 {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 @keyframes section1_text {
     from {
         color: #ffffff;
@@ -124,7 +122,6 @@ footer {
     align-items: center;
 
 }
-
 .footer_text {
     font-family: 'Rubik';
     font-weight: 300;
@@ -132,7 +129,6 @@ footer {
     color: #DDDBCB;
     align-items: center;
 }
-
 .footer_icons {
     display: flex;
     gap: 47px;
@@ -143,12 +139,10 @@ footer {
 .fa-youtube {
     color: #E3F6F6;
 }
-
 .fa-facebook-messenger:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
 }
-
 .fa-instagram:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
@@ -159,9 +153,11 @@ footer {
     box-shadow: 5px 5px 20px white;
 }
 
+
+
 /* artworks - II page  */
 
-/* section1 */
+/* section */
 
 .artworks_section_box {
     width: 80%;
@@ -226,21 +222,16 @@ h3 {
     flex-direction: column;
     align-items: center;
     transition-duration: 2s;
-
-  
 }
 .cards:hover{
     cursor: pointer;
     box-shadow: 5px 5px 30px black;
 }
-
-
 .card {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 56px;
-    transition-duration: 2s;
-    
+    transition-duration: 2s; 
 }
 .card:hover{
     cursor: pointer;
