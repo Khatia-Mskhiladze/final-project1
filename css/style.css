@@ -225,6 +225,8 @@ h3 {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    transition-duration: 2s;
+
   
 }
 .cards:hover{
@@ -236,7 +238,8 @@ h3 {
 .card {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 56px
+    margin-bottom: 56px;
+    transition-duration: 2s;
     
 }
 .card:hover{
