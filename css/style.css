@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 5px solid green; */
+    border: 5px solid green;
     background-color: #9EAEC5;
     font-family: 'Rubik';
     position: fixed;
@@ -38,8 +38,8 @@ header {
 
 .header_logo:hover {
     cursor: pointer;
-    width: 300px;
     color: #623932;
+    text-shadow: 4px 1px #ffffff;
 }
 
 ul {
@@ -65,10 +65,12 @@ li {
     cursor: pointer;
     border-bottom: 3px solid #623932;
 }
-
 .noactive:hover {
     cursor: pointer;
     border-bottom: 3px solid #623932;
+}
+.fa-cart-arrow-down{
+    color: #ffffff;
 }
 
 /* section */
@@ -164,7 +166,7 @@ footer {
     padding: 35px 38px 28px 34px;
     background-color: #623932;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 10%;
     transform: translate(-50% -50%);
 }
@@ -242,4 +244,59 @@ h3 {
     font-weight: 400;
     font-style: italic;
     font-size: 2rem;
+}
+
+/* contact - III page */
+
+.section_page3{
+    width: 100%;
+    margin-top: 100px;
+    padding: 90px 70px 84px 70px;
+    background-color: #6A7B98;
+}
+.section_contact_box{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #EDF0F5;
+}
+.contact_div{
+    padding: 31px 65px 36px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phone_div, .mail_div, .location_div{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    
+}
+.fa-phone, .fa-envelope, .fa-location-dot{
+    color: #F90E0E;
+    transition: 1s ease;
+}
+.fa-phone:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.fa-envelope:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.fa-location-dot:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.text_comunication{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #623932;
+}
+.contact_comunication{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: rgb(0, 0, 0, .64) ;
 }
