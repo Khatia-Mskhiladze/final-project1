@@ -300,6 +300,7 @@ h3 {
 .mail_div,
 .location_div {
     display: flex;
+    align-items: center;
     gap: 45px;
 }
 .fa-phone,
