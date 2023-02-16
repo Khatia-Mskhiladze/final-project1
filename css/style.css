@@ -36,35 +36,43 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .header_logo:hover {
     cursor: pointer;
     color: #623932;
     text-shadow: 4px 1px #ffffff;
 }
+
 ul {
     display: flex;
     gap: 47px;
 }
+
 li {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
 .active {
     color: #623932;
     border-bottom: 3px solid #623932;
 }
+
 .noactive {
     color: #E3F6F6;
 }
+
 .noactive:hover {
     cursor: pointer;
     border-bottom: 3px solid #623932;
 }
+
 .noactive:hover {
     cursor: pointer;
     border-bottom: 3px solid #623932;
 }
-.fa-cart-arrow-down{
+
+.fa-cart-arrow-down {
     color: #ffffff;
 }
 
@@ -81,6 +89,7 @@ li {
     background-position: center;
     position: relative;
 }
+
 h1 {
     width: 90%;
     font-family: 'Rubik';
@@ -97,11 +106,13 @@ h1 {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 @keyframes section1_text {
     from {
         color: #ffffff;
         width: 90%;
     }
+
     to {
         color: #000000;
         width: 100%;
@@ -117,6 +128,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 .footer_text {
     font-family: 'Rubik';
     font-weight: 300;
@@ -124,6 +136,7 @@ footer {
     color: #DDDBCB;
     align-items: center;
 }
+
 .footer_icons {
     display: flex;
     gap: 47px;
@@ -134,14 +147,17 @@ footer {
 .fa-youtube {
     color: #E3F6F6;
 }
+
 .fa-facebook-messenger:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
 }
+
 .fa-instagram:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
 }
+
 .fa-youtube:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
@@ -162,6 +178,7 @@ footer {
     left: 10%;
     transform: translate(-50% -50%);
 }
+
 h2 {
     font-family: 'Rubik';
     font-weight: 700;
@@ -188,6 +205,7 @@ article {
     padding: 70px 50px;
     background-color: #6A7B98;
 }
+
 h3 {
     font-family: 'Rubik';
     font-weight: 700;
@@ -196,6 +214,7 @@ h3 {
     margin-bottom: 150px;
     text-align: center;
 }
+
 .cards_box {
     width: 90%;
     margin: 0 auto;
@@ -205,6 +224,7 @@ h3 {
     flex-wrap: wrap;
     gap: 70px;
 }
+
 .cards {
     width: 28%;
     /* height: 80%; */
@@ -217,26 +237,31 @@ h3 {
     align-items: center;
     transition-duration: 1.5s;
 }
-.cards:hover{
+
+.cards:hover {
     cursor: pointer;
     box-shadow: 5px 5px 30px black;
 }
-.image_box{
+
+.image_box {
     width: 90%;
     height: 80%;
     overflow: hidden;
 }
+
 .card {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     margin-bottom: 56px;
-    transition-duration: 2s; 
+    transition-duration: 2s;
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
-    transform: scale(2,2);
+    transform: scale(2, 2);
 }
+
 .card_text {
     font-family: 'Inter';
     font-weight: 400;
@@ -246,62 +271,62 @@ h3 {
 
 /* contact - III page */
 
-.section_page3{
+.section_page3 {
     width: 100%;
     margin-top: 100px;
     padding: 90px 70px 84px 70px;
     background-color: #6A7B98;
 }
-.section_contact_box{
+.section_contact_box {
     width: 90%;
     height: 500px;
     margin: 0 auto;
-    background-color: #EDF0F5;
+    background-color: hsl(218, 29%, 95%, .68);
     display: flex;
 }
-.contact_div{
-    width: 30%;
+.contact_div {
+    width: 50%;
     height: 100%;
-    /* padding: 31px 65px 36px 65px; */
+    padding: 31px 65px 36px 65px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
-.contact_text_div{
-    display: flex;
-    flex-wrap: wrap;
+.contact_text_div {
+    line-height: 24px;
 }
-/* .phone_div, .mail_div, .location_div{
+.phone_div,
+.mail_div,
+.location_div {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-} */
-
-.fa-phone, .fa-envelope, .fa-location-dot{
+    gap: 45px;
+}
+.fa-phone,
+.fa-envelope,
+.fa-location-dot {
     color: #F90E0E;
     transition: 1s ease;
 }
-.fa-phone:hover{
+.fa-phone:hover {
     cursor: pointer;
     transform: scale(1.5);
 }
-.fa-envelope:hover{
+.fa-envelope:hover {
     cursor: pointer;
     transform: scale(1.5);
 }
-.fa-location-dot:hover{
+.fa-location-dot:hover {
     cursor: pointer;
     transform: scale(1.5);
 }
-.text_comunication{
+.text_comunication {
     font-family: 'Rubik';
     font-weight: 700;
     font-size: 1.5rem;
     color: #623932;
 }
-.contact_comunication{
+.contact_comunication {
     font-family: 'Rubik';
     font-weight: 300;
     font-size: 1.25rem;
