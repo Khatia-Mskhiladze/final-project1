@@ -1,0 +1,46 @@
+@media(max-width: 430px) {
+
+    /* I_page_index */
+
+    .header_logo {
+        width: 120px;
+        height: 60px;
+        padding: 18px 14px 18px 13px;
+        font-size: 1.25rem;
+    }
+    nav,
+    .fa-cart-arrow-down {
+        display: none;
+    }
+    .fa-burger {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    /* section */
+
+    .section1 {
+        height: 290px;
+        margin-top: 60px;
+
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /* footer  */
+
+    footer {
+        padding: 30px 100px 30px 100px;
+    }
+    .footer_image {
+        display: none;
+    }
+    .footer_icons {
+        gap: 55px;
+    }
+
+
+
+
+}
