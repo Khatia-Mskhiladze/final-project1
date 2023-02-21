@@ -74,7 +74,8 @@ li {
 .fa-cart-arrow-down {
     color: #ffffff;
 }
-.fa-burger{
+
+.fa-burger {
     display: none;
 }
 
@@ -89,7 +90,9 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -99,10 +102,8 @@ h1 {
     font-weight: 700;
     color: #ffffff;
     text-shadow: 0px 0px 0px #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
     text-align: center;
     animation-name: section1_text;
     animation-duration: 5s;
@@ -172,14 +173,16 @@ footer {
 
 /* section */
 
+.section1 {
+    width: 100%;
+    height: 678px;
+    margin-top: 100px;
+}
+
 .artworks_section_box {
     width: 80%;
     padding: 35px 38px 28px 34px;
     background-color: #623932;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    transform: translate(-50% -50%);
 }
 
 h2 {
@@ -203,7 +206,7 @@ h2 {
 
 article {
     width: 100%;
-    height: 1328px;
+    /* height: 1328px; */
     margin: 0 auto;
     padding: 70px 50px;
     background-color: #6A7B98;
@@ -221,21 +224,22 @@ h3 {
 .cards_box {
     width: 90%;
     margin: 0 auto;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
+    /* align-content: space-between; */
     flex-wrap: wrap;
-    gap: 70px;
+    row-gap: 70px;
 }
 
-.cards {
+.cards, .cards1, .cards2 {
     width: 28%;
     /* height: 80%; */
     padding: 33px 28px 30px 28px;
     border-radius: 10px;
     background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     transition-duration: 1.5s;
@@ -249,14 +253,15 @@ h3 {
 .image_box {
     width: 90%;
     height: 80%;
+    margin-bottom: 56px;
     overflow: hidden;
 }
+
 
 .card {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    margin-bottom: 56px;
     transition-duration: 2s;
 }
 
@@ -277,7 +282,7 @@ h3 {
 .section_page3 {
     width: 100%;
     margin-top: 100px;
-    padding: 90px 70px 84px 70px;
+    padding: 89px 70px 84px 70px;
     background-color: #6A7B98;
 }
 
@@ -287,6 +292,7 @@ h3 {
     margin: 0 auto;
     background-color: hsl(218, 29%, 95%, .68);
     display: flex;
+   
 }
 
 .contact_div {
@@ -302,7 +308,6 @@ h3 {
 .contact_text_div {
     line-height: 24px;
 }
-
 .phone_div,
 .mail_div,
 .location_div {
@@ -349,29 +354,31 @@ h3 {
 
 /* form */
 
-.main_contact_div {
+form {
     width: 50%;
     padding: 32px 65px 35px 0px;
-    display: flex;
-    justify-content: space-between;
+    /* border: 5px solid red; */
 }
 
 .form_div {
     width: 100%;
-    height: 104px;
+    /* height: 104px; */
     /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
-    gap: 121px;
+    /* gap: 121px; */
+
 }
 
 .F_E_div {
-    width: 100%;
+    width: 45%;
     margin-bottom: 44px;
     font-family: 'Rubik';
     font-weight: 700;
     font-size: 1.5rem;
     color: #F90E0E;
+    /* border: 5px solid green; */
+
 }
 
 #Fullname,
@@ -388,8 +395,8 @@ h3 {
 .textarea_div {
     width: 100%;
     height: 147px;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 5%;
+    margin-bottom: 10%;
     border: 3px solid #ffffff;
     /* color: #EDF0F5 68%; */
     border-radius: 8px;
@@ -406,10 +413,12 @@ h3 {
     border: none;
     outline: none;
 }
+
 button[type="submit"] {
     width: 50%;
     height: 88px;
     border: 4px solid #ffffff;
+    border-radius: 8px;
     background-color: #F90E0E;
     font-family: 'Rubik';
     font-weight: 700;

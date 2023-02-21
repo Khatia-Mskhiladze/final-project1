@@ -8,10 +8,12 @@
         padding: 18px 14px 18px 13px;
         font-size: 1.25rem;
     }
+
     nav,
     .fa-cart-arrow-down {
         display: none;
     }
+
     .fa-burger {
         display: block;
         color: #FFFFFF;
@@ -24,6 +26,7 @@
         margin-top: 60px;
 
     }
+
     h1 {
         font-size: 1.5rem;
     }
@@ -33,12 +36,166 @@
     footer {
         padding: 30px 100px 30px 100px;
     }
+
     .footer_image {
         display: none;
     }
+
     .footer_icons {
         gap: 55px;
     }
+
+
+
+    /* artworks - II page  */
+
+    /* section */
+
+    .section1 {
+        height: 290px;
+    }
+
+    .artworks_section_box {
+        width: 98%;
+        gap: 16px;
+        padding: 7px 14px 18px 15px;
+    }
+
+    h2 {
+        margin-top: 26px;
+        font-size: 1.0625rem;
+    }
+
+    .artworks_section_box {
+        padding: 19px 6px 18px 6px;
+    }
+
+    .section_text {
+        width: 98%;
+        font-size: 1rem;
+    }
+
+
+    /* <!-- article --> */
+
+
+    article {
+        padding: 28px 21px 65px 21px;
+    }
+
+    h3 {
+        margin-bottom: 42px;
+    }
+
+    .cards_box {
+        flex-direction: column;
+
+    }
+
+    .cards {
+        width: 100%;
+        height: 350px;
+    }
+
+    .card_text {
+        font-size: 1.5rem;
+        margin-top: 42px;
+    }
+
+    .cards2 {
+        display: none;
+    }
+
+
+
+
+    /* contact - III page */
+
+
+    .section_page3 {
+        /* height: 600px; */
+        padding: 50px 14px 50px 14px;
+        margin-top: 60px;
+
+    }
+
+    .section_contact_box {
+        width: 98%;
+        flex-direction: column;
+
+
+    }
+
+    .contact_div {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact_text_div {
+        display: none;
+    }
+
+    .fa-phone,
+    .fa-envelope,
+    .fa-location-dot {
+        font-size: 2.5rem;
+    }
+
+
+    /* form */
+
+    form {
+        width: 100%;
+        padding: 0px 40px 38px 40px;
+    }
+
+    .form_div {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 5%;
+
+    }
+
+    .F_E_div {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 0%;
+        /* row-gap: 18px; */
+
+    }
+
+    #Fullname,
+    #Email_Address {
+        margin-top: 1%;
+    }
+
+    .textarea_div {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        /* height: 114px; */
+        font-size: 1.25rem;
+    }
+
+    .label_contact_info {
+        font-size: 1.25rem;
+    }
+
+    .button_div{
+        width: 100%;
+        height: 78px;
+        font-size: 2.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
 
 
 
