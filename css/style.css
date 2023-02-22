@@ -60,6 +60,10 @@ li {
 .noactive {
     color: #E3F6F6;
 }
+.active:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #623932;
+}
 
 .noactive:hover {
     cursor: pointer;
@@ -274,7 +278,8 @@ h3 {
     font-family: 'Inter';
     font-weight: 400;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 /* contact - III page */
@@ -423,7 +428,7 @@ button[type="submit"] {
     background-color: #F90E0E;
     font-family: 'Rubik';
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     transition: .9s;
 }
@@ -433,3 +438,4 @@ button[type="submit"]:hover {
     border: 1px solid #350202;
     box-shadow: 15px 15px 30px red;
 }
+
