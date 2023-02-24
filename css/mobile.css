@@ -1,7 +1,9 @@
 @media(max-width: 430px) {
 
     /* I_page_index */
-
+header{
+    padding: 0px 15px 0 0;
+}
     .header_logo {
         width: 120px;
         height: 60px;
@@ -9,7 +11,24 @@
         font-size: 1.25rem;
     }
 
-    nav,
+    .navigation_ul{
+        width: 20%;
+        position: fixed;
+        top: 60px;
+        height: 70px;
+        background-color: grey;
+        left: -101%;
+        transform: translateX(-50%);
+        flex-direction: column;
+        gap: 0;
+        justify-content: space-around;
+        text-align: center;
+
+
+    }
+    .navigation_li{
+        font-size: .9rem;
+    }
     .fa-cart-arrow-down {
         display: none;
     }
@@ -17,6 +36,9 @@
     .fa-burger {
         display: block;
         color: #FFFFFF;
+    }
+    .show{
+        left: 10%;
     }
 
     /* section */

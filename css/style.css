@@ -43,12 +43,12 @@ header {
     text-shadow: 4px 1px #ffffff;
 }
 
-ul {
+.navigation_ul {
     display: flex;
     gap: 47px;
 }
 
-li {
+.navigation_li {
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -81,6 +81,10 @@ li {
 
 .fa-burger {
     display: none;
+}
+.fa-xmark{
+    display: none;
+    color: #FFFFFF;
 }
 
 /* section */
@@ -295,6 +299,7 @@ h3 {
     width: 90%;
     height: 500px;
     margin: 0 auto;
+    border-radius: 15px;
     background-color: hsl(218, 29%, 95%, .68);
     display: flex;
     justify-content: space-between;

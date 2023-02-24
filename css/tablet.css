@@ -3,10 +3,10 @@
   /* header */
 
   header {
-    padding: 0px;
+    padding: 0px 3px 0px 0px;
   }
 
-  ul {
+  .navigation_ul {
     font-size: 1.25rem;
     gap: 29px;
   }
